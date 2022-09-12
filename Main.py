@@ -2,7 +2,7 @@ from typing import List
 
 def selectionSort(array, size) -> List[int]:
   # Write your code here
-  for index in range(size)
+  for index in range(size):
     small_index = index
     for jindex in range(index+1, size):
       if array[jindex] < array[small_index]:
